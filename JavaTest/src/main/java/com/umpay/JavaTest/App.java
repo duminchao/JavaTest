@@ -24,6 +24,11 @@ import com.umpay.entity.Person;
 public class App 
 {
     @Test
+    public void test18(){
+        System.out.println("test GitHub is or not success!");
+    }
+    
+    @Test
     public void test17(){
         String str = "11111";
         String[] split = str.split(",");

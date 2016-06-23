@@ -8,12 +8,10 @@ public class TestJSONUtil {
     
     @Test
     public void test11(){
-        
-        int[] a = { 1, 3, 8, 9, 2, 4, 5, 6, 7, 0};
-        
-        for(int i = 0 ; i < a.length; i++){
-            for(int j = i + 1; j <  )
-        }
+       Integer i = null ; 
+       String j = i + "";
+       
+       System.out.println(j==null ? true : false);
         
     }
 
